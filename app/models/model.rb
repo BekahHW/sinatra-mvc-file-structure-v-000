@@ -1,3 +1,4 @@
+require 'pry'
 class Model
   
   
@@ -14,7 +15,7 @@ class Model
       @age = age
       @@all<<self
     end
-    
+    binding.pry
   end
 
 end
